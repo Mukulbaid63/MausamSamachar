@@ -8,7 +8,7 @@
 - If the browser doesn't supports geolocation, a notification appears on the screen for it.
 
 ### OpenWeatherMap API is used to get the weather data
-# AQI Detector
+
 
 ## Points to keep in mind while contributing:
 - Issues will be assigned on a first come, first serve basis. You just have to comment on the issue, asking to be assigned, and it will be done if found fit and complete the issue within 7 days.
