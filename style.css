@@ -51,7 +51,7 @@
     top:15%;
     background-size: cover;
     border-radius:8px ;
-  }
+width: 100vw;  }
 
   header {
     display: flex;
