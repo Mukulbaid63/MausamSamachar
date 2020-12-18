@@ -3,13 +3,12 @@ var api = {
   base :"https://api.openweathermap.org/data/2.5/" 
 }
 
+
 let latitude,longitude;
 
 
-var searchbox = document.querySelector('.search-box');
-currentlocation()
 
-searchbox.addEventListener('keypress',setQuery);
+currentlocation()
 
 function currentlocation() {
   if (navigator.geolocation) {
@@ -53,4 +52,3 @@ function displayResults(weather) {
  deg.innerText=weather.wind.deg;
  
 }
-
