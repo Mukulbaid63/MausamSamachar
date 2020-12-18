@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'montserrat', sans-serif;  }
+    }
 
   .background{
      background-size: cover;
@@ -11,6 +11,15 @@
    height: 100vh;
   
 
+  }
+  body{
+    font-family: 'montserrat', sans-serif;
+  }
+  .contain{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
   }
  
   .app-wrap {
@@ -21,7 +30,12 @@
     position:absolute;
     padding: 30px;
     top:15%;
-    background-size: cover;
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     backdrop-filter:brightness(85%);
     border-radius:15px ;
   
@@ -41,13 +55,8 @@
 
   }
 
-  .container {
-    flex: 1 1 100%;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  .contain {
+    
     color:#ffffff;
 
   }
@@ -89,11 +98,11 @@ hr.style-two {
   .location  {
     font-size: 16px;
     display: flex; 
-    text-shadow: 2px 5px rgba(49, 48, 48, 0.6);
+    text-shadow: 2px 4px rgba(24, 24, 24, 0.6);
   }
 
   .current .temp {
-    text-shadow: 2px 5px rgba(49, 48, 48, 0.6);
+    text-shadow: 3px 9px rgba(27, 27, 27, 0.6);
 
     font-size: 100px;
     font-weight: 900;
