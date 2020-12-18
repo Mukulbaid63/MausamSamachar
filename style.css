@@ -12,6 +12,20 @@
   
 
   }
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    padding: 30px;
+    top:15%;
+    background-size: cover;
+    backdrop-filter:brightness(85%);
+    border-radius:15px ;
+
+  
+ }
   .icon-1{
     padding-left: 9px;
   }
@@ -44,21 +58,7 @@
     display: flex;
     margin-top: 20px;
   }
-  .app-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position:absolute;
-    padding: 30px 90px;
-    top:15%;
-    background-size: cover;
-    backdrop-filter:brightness(85%);
-    border-radius:15px ;
-
-    min-width: 30vw ;
-    min-height: 60vh;
- }
+  
 
   header {
     display: flex;
