@@ -12,9 +12,7 @@
   
 
   }
-  body{
-    color: #ffffff;
-  }
+ 
   .app-wrap {
     display: flex;
     flex-direction: column;
@@ -43,8 +41,8 @@
 
   }
 
-  .contain {
-    
+  .container {
+    flex: 1 1 100%;
     display: flex;
     position: relative;
     flex-direction: column;
