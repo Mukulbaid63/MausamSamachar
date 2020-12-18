@@ -27,7 +27,9 @@ function setPosition(position){
 
   function displayResults (weather) {
     let icon=document.querySelector('.icon-1');
-    icon.innerHTML=`<img src="${weather.weather[0].icon}.png"/>`
+    icon.innerHTML=`<img src="${weather.weather[0].icon}.png"/>`;
+    let humidity=document.querySelector('.humidity-value');
+    humidity.innerHTML=`${weather.main.humidity}`
     icon.setAttribute("src","")
     let city = document.querySelector('.location .city');
     city.innerText = `${weather.name}, ${weather.sys.country}`;

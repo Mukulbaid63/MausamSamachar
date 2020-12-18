@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
+  <head>
+    <title>Weather Forecast</title>
 
-        <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e25b852c87.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <img src="bg4.jpg" class="background" />
 
-        <link rel="stylesheet" href="style.css">
-        <script src="app.js"></script>
-        <script src="https://kit.fontawesome.com/e25b852c87.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="container">
-          <img src="bg4.jpg" class="background">
-
-            <div class="app-wrap">
-
-                  <section class="location">
-                    <div class="notification">Geolocation not supported by the browser</div>
-                   <i class="fas fa-map-marker-alt"> </i><div class="city">-</div>
-                  </section>
-                  <div class="current">
-                    <div class="icon">
-                    <div class="temp">-<span>°c</span></div>
-                    <div class="icon-1"><img src="unknown.png"/></div>
-                    </div>
-                    <div class="weather">-</div>
-                    <div class="temp2">
-                      <i class="fas fa-wind"></i>
-                    <div class="temp-1">
-                    <div class="speed"><span class="wind-speed">-</span> m/s</div>
-                    <div class="degree"><span class="wind-degree">-</span> degrees</div>
-                    </div>
-                    </div>
-
-                  </div>
+      <div class="app-wrap">
+        <section class="location">
+          <div class="notification">
+            Geolocation not supported by the browser
+          </div>
+          <i class="fas fa-map-marker-alt"> </i>
+          <div class="city">-</div>
+        </section>
+        <div class="current">
+          <div class="icon">
+            <div class="temp">-<span>°c</span></div>
+            <div class="icon-1"><img src="unknown.png" /></div>
+          </div>
+          <div class="weather">-</div>
+          <hr class="style-two"/>
+          <div class="temp-util">
+            <div class="temp2">
+              <i class="fas fa-wind"></i>
+              <div class="temp-1">
+                <div class="speed"><span class="wind-speed">-</span> m/s</div>
+                <div class="degree">
+                  <span class="wind-degree">-</span> degrees
+                </div>
               </div>
+            </div>
+            <div class="humid">
+              <i class="fas fa-tint"></i>
+              <div class="humidity">
+                <span class="humidity-value">-</span> %
+              </div>
+            </div>
+          </div>
         </div>
-        <footer>
-          Developed by UnScripted.tech❄️🥶|<a href="https://github.com/Mukulbaid63"><i class="fab fa-github"></i></a>|<a href="https://www.linkedin.com/in/mukulbaid63"><i class="fab fa-linkedin"></i></a>
-      </footer>
-        <script src="app.js"></script>
-    </body>
-</html> 
+      </div>
+    </div>
+    <footer>
+      Developed by UnScripted.tech❄️🥶| <a href="https://github.com/Mukulbaid63"
+        ><i class="fab fa-github"></i></a
+      > | <a href="https://www.linkedin.com/in/mukulbaid63"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
