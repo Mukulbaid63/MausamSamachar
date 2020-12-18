@@ -38,7 +38,7 @@
 
   }
   .weather{
-    font-size: 100%;
+    font-size: 30px;
   }
   .temp-util{
     display: flex;
@@ -50,13 +50,14 @@
     justify-content: center;
     align-items: center;
     position:absolute;
-    padding: 30px 60px 30px 60px;
+    padding: 30px 90px;
     top:15%;
     background-size: cover;
     backdrop-filter:brightness(85%);
     border-radius:15px ;
+
     min-width: 30vw ;
-    min-height: 70vh;
+    min-height: 60vh;
  }
 
   header {
@@ -71,7 +72,7 @@
     max-width: 280px;
     padding: 10px 15px;
     outline: none;
-    font-size: 100%;
+    font-size: 20px;
     font-weight: 300;
     transition: 0.2s ease-out;
   }
@@ -111,7 +112,7 @@ hr.style-two {
   .current .temp {
     text-shadow: 2px 5px rgba(49, 48, 48, 0.6);
 
-    font-size: 450%;
+    font-size: 122px;
     font-weight: 900;
     margin: 30px 0px;
     
@@ -135,7 +136,7 @@ i{
     font-weight: bolder;
   }
   .current {
-    font-size: 140%;
+    font-size: 22px;
     font-weight: normal;
     margin-bottom: 15px;
   }
