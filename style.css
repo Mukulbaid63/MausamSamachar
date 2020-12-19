@@ -48,7 +48,7 @@ main {
   text-shadow: 2px 5px rgba(46, 46, 46, 0.6);
 }
 .util-4{
-  font-size: 100px;
+  font-size: 76px;
 }
 
 .current .temp {
@@ -96,8 +96,8 @@ main {
   display: flex;
 }
 .icon-1>img{
-  width: 85%;
-  height: 85%;
+  width: 90%;
+  height: 90%;
 }
 .util-3{
 padding: 10px;
