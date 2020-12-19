@@ -36,10 +36,7 @@ main {
   backdrop-filter: brightness(85%);
   /* margin-top: 50px; */
 }
-.util-3{
-  margin-top: 15px;
-  padding: 15px;
-}
+
 .location .city {
   color: #FFF;
   font-size: 32px;
@@ -49,7 +46,6 @@ main {
 }
 .util-4{
   font-size: 100px;
-  padding-top:10px ;
 }
 
 .current .temp {
@@ -95,7 +91,9 @@ main {
   display: flex;
 }
 .icon-1{
-  padding: 15px;
+}
+.util-3{
+padding: 10px;
 }
 .fa-map-marker-alt{
   color:#ffffff;
