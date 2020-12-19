@@ -18,7 +18,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
- 
+  align-items: center;
+  text-align: center;
   
 }
 
@@ -32,7 +33,6 @@ main {
   text-align: center;
   position: absolute;
   top:15%;
-  left: 36%;
   border-radius: 10px;
   backdrop-filter: brightness(85%);
   /* margin-top: 50px; */
