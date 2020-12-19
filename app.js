@@ -1,8 +1,7 @@
 var api = {
-    key: "87cde31000e5170290cebdd94820d23d",
+  key : "d069687c0e086de4022bf67ee8c0617d",
   base :"https://api.openweathermap.org/data/2.5/" 
 }
-
 
 let latitude,longitude;
 
@@ -35,7 +34,7 @@ function displayResults(weather) {
  city.innerHTML= `${weather.name}, ${weather.sys.country}`;
  
  let temp = document.querySelector('.current .temp');
- temp.innerHTML = `${Math.round(weather.main.temp)}°c`;
+ temp.innerHTML = `${Math.round(weather.main.temp)}`;
 
  let weather_el = document.querySelector('.current .weather');
  weather_el.innerHTML = weather.weather[0].main;
