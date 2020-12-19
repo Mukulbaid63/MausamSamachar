@@ -6,10 +6,8 @@ var api = {
 let latitude,longitude;
 
 
-var searchbox = document.querySelector('.search-box');
-currentlocation()
 
-searchbox.addEventListener('keypress',setQuery);
+currentlocation()
 
 function currentlocation() {
   if (navigator.geolocation) {
@@ -36,7 +34,7 @@ function displayResults(weather) {
  city.innerHTML= `${weather.name}, ${weather.sys.country}`;
  
  let temp = document.querySelector('.current .temp');
- temp.innerHTML = `${Math.round(weather.main.temp)}°c`;
+ temp.innerHTML = `${Math.round(weather.main.temp)}`;
 
  let weather_el = document.querySelector('.current .weather');
  weather_el.innerHTML = weather.weather[0].main;
