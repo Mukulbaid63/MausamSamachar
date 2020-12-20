@@ -1,5 +1,5 @@
 var api = {
-  key : "d069687c0e086de4022bf67ee8c0617d",
+  key : "87cde31000e5170290cebdd94820d23d",
   base :"https://api.openweathermap.org/data/2.5/" 
 }
 
