@@ -1,4 +1,4 @@
-# Weather Forecast App:
+# Mausam Samachar:
 - This app is built using HTML,CSS and Javascript is a Weather Forecast App.
 - It automatically detects the location of the user if the browser supports the geolocation.
 - It displays the location, temperature, weather and the wind-speed and direction.
