@@ -5,7 +5,7 @@
 }
 
 .loader-container{
-  background-color:#000;
+  background-color:rgb(48, 43, 43);
   transition:all 0.3s;
   position:fixed;
   top:0;left:0;
@@ -30,8 +30,8 @@ body {
   
 }
 .sk-chase {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   position: absolute;
   top:50%;left:50%;
   transform:translate(-50%,-50%);
