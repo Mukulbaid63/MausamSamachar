@@ -1,3 +1,10 @@
+const loaderContainer=document.querySelector('.loader-container');
+window.addEventListener('load',()=>{
+  loaderContainer.classList.add('hide');
+});
+
+
+
 var api = {
   key : "87cde31000e5170290cebdd94820d23d",
   base :"https://api.openweathermap.org/data/2.5/" 
