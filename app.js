@@ -1,6 +1,9 @@
 const loaderContainer=document.querySelector('.loader-container');
+const mainContent=document.querySelector('.main-content');
+
 window.addEventListener('load',()=>{
   loaderContainer.classList.add('hide');
+  mainContent.classList.remove('hide1');
 });
 
 
