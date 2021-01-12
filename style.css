@@ -27,7 +27,7 @@ header input {
     
   backdrop-filter: brightness(85%);
   width: 100vw;
-  max-width: 310px;
+  max-width: 305px;
     padding: 10px 15px;
     border: none;
     outline: none;
@@ -137,7 +137,7 @@ main {
   border-radius: 10px;
   backdrop-filter: brightness(85%);
   width: 100vw;
-  max-width: 310px;
+  max-width: 320px;
   /* margin-top: 50px; */
 }
 
