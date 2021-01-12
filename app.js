@@ -15,9 +15,29 @@ var api = {
 
 let latitude,longitude;
 
-
-
+var searchbox = document.querySelector('.search-box');
 currentlocation()
+
+searchbox.addEventListener('keypress',setQuery);
+function setQuery(evt) {
+    let city = document.querySelector('.location .city');
+    
+    if (evt.keyCode == 13) {
+       getResults(searchbox.value)
+       console.log(searchbox.value);
+    }
+}
+
+function getResults(query) {
+    if(query==""){
+        currentlocation()
+        return ;
+    }
+    fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
+    .then(weather =>{ 
+       return weather.json();
+   }) .then(displayResults)
+}
 
 function currentlocation() {
   if (navigator.geolocation) {
