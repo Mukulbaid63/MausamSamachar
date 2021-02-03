@@ -48,7 +48,7 @@ function currentlocation() {
 function setPosition(position){
   latitude = position.coords.latitude;
   longitude = position.coords.longitude;
-  console.log(latitude,longitude)
+  console.log(latitude+""+longitude)
   getWeather(latitude, longitude);
 }
 
