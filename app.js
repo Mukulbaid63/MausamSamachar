@@ -21,7 +21,7 @@ currentlocation()
 searchbox.addEventListener('keypress',setQuery);
 function setQuery(evt) {
     let city = document.querySelector('.location .city');
-    
+    console.log(evt)
     if (evt.keyCode == 13) {
        getResults(searchbox.value)
        console.log(searchbox.value);
